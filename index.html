@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title></title>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<!-- <script src="http://webapi.amap.com/maps?v=1.4.3&key=3910a844be295cd0a8cb336180521f9d"></script> -->
+<script type="text/javascript">
+  window.localStorage.setItem('mobileId', JSON.stringify(returnCitySN.cip));
+  // 禁用浏览器自带的 滑动事件
+  document.addEventListener('touchmove', function (e) {
+    if (e.cancelable) {
+      // 判断默认行为是否已经被禁用
+      if (!e.defaultPrevented) {
+        e.preventDefault();
+      }
+    }
+  },{passive:false});
+
+</script>
+
+</html>

@@ -1,0 +1,102 @@
+*
+  margin 0
+  padding 0
+  tap-highlight-color:none
+  box-sizing: border-box
+  font-family :"微软雅黑",PingFangSC-Regular, sans-serif
+body,html
+  background-color:#FFF
+li
+  list-style:none
+a
+  text-decoration: none
+
+// 自定义公共样式
+// 定位
+.p-r
+  position: relative
+.p-a
+  position: absolute
+.p-f
+  position: fixed
+// 文字
+.t-c
+  text-align: center
+.t-l
+  text-align: left
+.t-r
+  text-align: right
+//浮动
+.clearfix:after
+  content: ''
+  display: block
+  height: 0
+  overflow: hidden
+  clear: both
+.f-l
+  float: left
+.f-r
+  float: right
+//尺寸
+.wd
+  width :100%
+//布局
+.flex
+  display: flex
+.fl-o
+  flex: 1
+//绝对定位的居中
+.a-c
+  top 50%
+  left 50%
+  transform  translate3d(-50%,-50%,0)
+// 插件样式设置
+//弹窗
+.mint-toast
+  background-color rgba(0,0,0,.8)
+  border-radius .5rem
+  // .icon-success
+  //   width: 1.875rem
+  //   height: 1.875rem
+  //   background  url('../../') position repeat
+.mint-toast-text
+  font-size .875rem
+
+.mint-spinner-fading-circle
+  left: 50%
+  transform translateX(-50%)
+@keyframes loading
+  0%
+    transform rotateZ(0deg)
+  100%
+    transform rotateZ(360deg)
+// 遮罩层的层级设置
+.mint-msgbox-wrapper
+  z-index 10002 !important
+.v-modal
+  z-index 10001 !important
+.mint-msgbox
+  border-radius .5rem !important
+  max-width 70% !important
+  .mint-msgbox-header
+    .mint-msgbox-title
+      font-size 1rem
+      color #1a1a1a
+      font-weight normal
+  .mint-msgbox-content
+    .mint-msgbox-message
+      color #1a1a1a
+      font-size .875rem
+  .mint-msgbox-btns
+    font-size 1rem
+    color #1a1a1a
+    .mint-msgbox-confirm
+      color #d01c95
+.mint-indicator-wrapper
+  background rgba(0,0,0,.8) !important
+  border-radius: 1rem !important
+  font-size 1rem !important
+
+
+
+

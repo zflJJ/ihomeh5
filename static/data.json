@@ -1,0 +1,73 @@
+{
+    "data": {
+        "estate": [{
+                "id": 1,
+                "type": 1,
+                "name": "BUPT",
+                "parkingAmount": 100,
+                "address": "盐葵路大梅沙段148号",
+                "x": 114.028,
+                "y": 22.548,
+                "parkingX": 113.948931,
+                "parkingY": 22.572608,
+                "introduction": "1",
+                "parkingList": [{
+                    "id": 1,
+                    "name": "CrAM_0959CD",
+                    "guaranteeFee": 10.0,
+                    "unitPrice": 20.0,
+                    "shares": [{
+                            "id": 1,
+                            "startTime": 1600000000000,
+                            "endTime": 1600001800000
+                        },
+                        {
+                            "id": 1,
+                            "startTime": 1600000000000,
+                            "endTime": 1600001800000
+                        }
+                    ]
+                }],
+                "shareCount": 1,
+                "minUnitPrice": 10.0,
+                "maxUnitPrice": 20.0,
+                "minGuaranteePrice": 5.0
+            },
+            {
+                "id": 1,
+                "type": 1,
+                "name": "BUPT",
+                "parkingAmount": 100,
+                "address": "盐葵路大梅沙段148号",
+                "x": 114.025,
+                "y": 22.551,
+                "parkingX": 113.948931,
+                "parkingY": 22.572608,
+                "introduction": "1",
+                "parkingList": [{
+                    "id": 1,
+                    "name": "CrAM_0959CD",
+                    "guaranteeFee": 10.0,
+                    "unitPrice": 10.0,
+                    "shares": [{
+                            "id": 1,
+                            "startTime": 1600000000000,
+                            "endTime": 1600001800000
+                        },
+                        {
+                            "id": 1,
+                            "startTime": 1600000000000,
+                            "endTime": 1600001800000
+                        }
+                    ]
+                }],
+                "shareCount": 1,
+                "minUnitPrice": 10.0,
+                "maxUnitPrice": 20.0,
+                "minGuaranteePrice": 5.0
+            }
+        ]
+    },
+    "errcode": 1,
+    "errmsg": "success"
+}
